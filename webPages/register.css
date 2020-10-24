@@ -4,6 +4,7 @@
   text-decoration: none;
   font-family: "David Libre", serif;
   box-sizing: border-box;
+
 }
 
 .navbar {
@@ -28,14 +29,14 @@
   justify-content: space-between;
 }
 
+
 .logo {
   width: 242px;
   height: 132px;
-  background: url(
-      https://cdn.glitch.com/5ee84088-d31b-4f20-89d8-592128411228%2Falo.png?v=1602698694831
-    )no-repeatcenter;
+  background: url(https://cdn.glitch.com/5ee84088-d31b-4f20-89d8-592128411228%2Falo.png?v=1602698694831) no-repeat center;
   background-size: contain;
 }
+
 
 .menu-toggler {
   background: none;
@@ -56,7 +57,7 @@
   transition: 0.3s linear;
 }
 
-.navbar-menu a {
+.navbar-menu a{
   color: white;
   font-size: 15px;
   font-weight: 500;
@@ -75,10 +76,8 @@
 .sticky .logo {
   width: 242px;
   height: 132px;
-  background: url(
-      https://cdn.glitch.com/5ee84088-d31b-4f20-89d8-592128411228%2Falo.png?v=1602698694831
-    )no-repeatcenter;
-  background-size: contain;
+  background: url(https://cdn.glitch.com/5ee84088-d31b-4f20-89d8-592128411228%2Falo.png?v=1602698694831) no-repeat center;
+   background-size: contain;
 }
 
 .sticky .navbar-menu a {
@@ -118,7 +117,7 @@
 
 #home .content h1::after {
   font-family: "David Libre", serif;
-  content: "REGISTER";
+  content: "Register";
   animation: textanim 10s linear infinite;
 }
 
@@ -169,19 +168,24 @@ input[type="password"]::placeholder {
   text-align: center;
 }
 
-input[type="submit"] {
-  margin-top: 15px;
-  margin-bottom: 40px;
-  margin-left: 400px;
-  padding: 10px 30px;
-  background-color: lightskyblue;
-  border-color: lightskyblue;
+
+input[type=submit]
+{   
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 380px;
+    padding: 10px 30px;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    
 }
 
-.links {
-  margin-top: 20px;
-  margin-left: 140px;
+.links
+{
+    margin-top: 20px;
+    margin-left: 140px;
 }
+
 
 footer {
   background-color: lightgrey;
@@ -252,6 +256,8 @@ footer {
   margin-top: 10px;
 }
 
+
+
 @media screen and (max-width: 980px) {
   .menu-toggler {
     display: block;
@@ -296,10 +302,15 @@ footer {
     transform: rotate(45deg);
     bottom: 4px;
   }
+  
+
+
 }
-@media screen and (max-width: 600px) {
-  .inner-width {
-    padding: 0 20px;
-  }
+  @media screen and (max-width: 600px) {
+    .inner-width {
+      padding: 0 20px;
+    }
+
+
 }
 
