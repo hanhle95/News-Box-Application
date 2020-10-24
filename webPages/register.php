@@ -45,7 +45,7 @@
         </button>
         <!-- Where all the nav bar will list -->
         <div class="navbar-menu">
-          <a href="https://news-box-application.glitch.me/Newsbox.html"> Home</a>
+          <a href="#"> Home</a>
           <a href="https://news-box-application.glitch.me/login.html"> Login </a>
           <a href="https://news-box-application.glitch.me/register.html"> Register</a>
           <a href="#"> Forum</a>
@@ -58,29 +58,17 @@
       <div class="inner-width">
         <div class="content">
           <h1></h1>
-          <!--
-          
-          <div class="sm">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-google"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
-          </div>
-          
-          -->
         </div>
       </div>
     </section>
 
     <section id="register">
       <div class="registerForm">
-
-
-
         <form>
-	  <input type="hidden" name="action" value="registerUser">	
-
+		
+          <input type="hidden" name="action" value="registerUser"> 
+		
+		
           <div class="inputBox">
             <br /><label style="color: lightskyblue;"> Username </label>
             <label style="color:red;">* </label>
@@ -101,7 +89,22 @@
               placeholder="Enter Your Password"
             />
           </div>
-
+          <div class="checkBox">
+             <br>
+             <br><input type="checkbox" id="ref1" name="ref1" value="Bss">
+             <label for="userRef1"> Business</label><br>
+             <br><input type="checkbox" id="ref2" name="ref2" value="Ettm">
+             <label for="userRef2"> Entertainment </label><br>
+             <br><input type="checkbox" id="ref3" name="ref3" value="Hth">
+             <label for="userRef3"> Health</label><br>
+             <br><input type="checkbox" id="ref4" name="ref4" value="Sci">
+             <label for="userRef4"> Science</label><br>
+             <br><input type="checkbox" id="ref5" name="ref5" value="Sprt">
+             <label for="userRef5"> Sports </label><br>
+             <br><input type="checkbox" id="ref6" name="ref6" value="Tech">
+             <label for="userRef6"> Technology</label><br><br>
+          </div>
+          
           <br /><input
             type="submit"
             id="loginSubmit"
@@ -110,8 +113,6 @@
             style="color: white;"
           />
         </form>
-
-
       </div>
     </section>
 
@@ -121,8 +122,8 @@
       <div class="inner-width">
         <div class="policy">
           <a class="bt" href="#">About Us</a>
-          <a class="bt" href="#">Login</a>
-          <a class="bt" href="#">Register</a>
+          <a class="bt" href="https://news-box-application.glitch.me/login.html">Login</a>
+          <a class="bt" href="https://news-box-application.glitch.me/register.html">Register</a>
         </div>
 
         <div class="copyright">&copy; | 2020, <a href="#">News Box </a></div>
@@ -138,4 +139,3 @@
     <button class="goTop fas fa-arrow-up"></button>
   </body>
 </html>
-
