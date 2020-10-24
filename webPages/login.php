@@ -45,8 +45,8 @@
         </button>
         <!-- Where all the nav bar will list -->
         <div class="navbar-menu">
-          <a href="newsbox.php"> Home</a>
-          <a href="login.php"> Login </a>
+          <a href="#"> Home</a>
+          <a href="#"> Login </a>
           <a href="#"> Register</a>
           <a href="#"> Forum</a>
         </div>
@@ -58,17 +58,6 @@
       <div class="inner-width">
         <div class="content">
           <h1></h1>
-          <!--
-          
-          <div class="sm">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-google"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
-          </div>
-          
-          -->
 
         </div>
       </div>
@@ -89,7 +78,6 @@
               <input
                 type="text"
                 name="username"
-		id="email"
                 required="required"
                 placeholder="Enter Your Name"
               />
@@ -99,8 +87,7 @@
               <label style="color:red;">* &nbsp;</label>
               <input
                 type="password"
-                name="password"
-		id="password"
+                name="userpw"
                 required="required"
                 placeholder="Enter Your Password"
               />
